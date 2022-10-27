@@ -1,5 +1,3 @@
-<code>
-mkdir -p /root/seedbox/install/<br>
-wget -O /root/seedbox/install/get.sh https://mr-tnan.github.io/seedbox/backend/version/latest/get.sh<br>
-bash /root/seedbox/install/get.sh<br>
-</code>
+mkdir -p /root/seedbox/install/ \<br>
+wget -O /root/seedbox/install/install.sh https://mr-tnan.github.io/seedbox/backend/version/latest/install.sh \<br>
+bash /root/seedbox/install/install.sh 2>&1|tee /root/seedbox/install.log \<br>
