@@ -5,7 +5,6 @@ apt remove apache2 nginx -y
 apt autoremove
 apt install docker-compose zip unzip nginx -y
 
-rm -rf /root/seedbox/
 mkdir -p /root/seedbox/install/
 wget -O /root/seedbox/install/get.sh https://mr-tnan.github.io/seedbox/backend/version/latest/get.sh
 bash /root/seedbox/install/get.sh
