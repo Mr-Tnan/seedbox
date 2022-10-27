@@ -11,7 +11,7 @@ bash /root/seedbox/install/get.sh
 unzip /root/seedbox/install/seedbox.zip -d /root/
 
 mkdir -p /var/www/html/seedbox/qbittorrent/download/
-cp /root/seedbox/system/config/nginx/default /etc/nginx/default
+cp /root/seedbox/system/config/nginx/default /etc/nginx/sites-available/default
 
 rm -rf /root/seedbox/system/app/emby/data/*
 unzip /root/seedbox/system/app/emby/engine/system/data/emby.zip -d /root/seedbox/system/app/emby/data/
