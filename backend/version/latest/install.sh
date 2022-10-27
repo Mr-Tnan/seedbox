@@ -1,7 +1,7 @@
 apt update
 apt remove apache2 ngnix -y
 apt autoremove
-apt install docker-compose zip unzip -y
+apt install docker-compose zip unzip ngnix -y
 
 rm -rf /root/seedbox/
 unzip /root/seedbox/install/seedbox.zip -d /root/
