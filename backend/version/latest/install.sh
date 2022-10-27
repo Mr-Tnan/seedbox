@@ -25,3 +25,5 @@ unzip /root/seedbox/system/app/filebrowser/engine/system/data/filebrowser.zip -d
 chown -R www-data:www-data /root/seedbox/*
 bash /root/seedbox/system/service/stop-all.sh
 bash /root/seedbox/system/service/start-all.sh
+
+service nginx restart
