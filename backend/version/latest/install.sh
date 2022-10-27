@@ -1,3 +1,5 @@
+#!/bin/bash
+
 apt update
 apt remove apache2 nginx -y
 apt autoremove
