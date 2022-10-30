@@ -23,6 +23,7 @@ rm -rf /root/seedbox/system/app/filebrowser/data/*
 unzip /root/seedbox/system/app/filebrowser/engine/system/data/filebrowser.zip -d /root/seedbox/system/app/filebrowser/data/
 
 chown -R www-data:www-data /root/seedbox/*
+chown -R www-data:www-data /var/www/html/*
 bash /root/seedbox/system/service/stop-all.sh
 bash /root/seedbox/system/service/start-all.sh
 
